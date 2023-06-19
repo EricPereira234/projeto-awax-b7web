@@ -21,6 +21,10 @@ header{
 .logo{
     width: 80px;
 }
+.logo img {
+    height: 80px;
+    width: 80px;
+}
 .menu{
  flex: 1;
  display: flex;
@@ -33,6 +37,7 @@ header{
 
 .menu  li {
     list-style: none;
+    margin: 0 10px;
 }
 .menu li a {
     color: #fff;
@@ -43,5 +48,4 @@ header{
 .logoimg{
     width: 80px;
     height: 80px;
-    background-color: #b28756;
 }
