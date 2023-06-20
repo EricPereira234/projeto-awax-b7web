@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header{
@@ -38,11 +39,20 @@ header{
 .menu  li {
     list-style: none;
     margin: 0 10px;
+    padding: 0 2px;
 }
 .menu li a {
+    height: 100px;
     color: #fff;
+    border-bottom: 3px solid #000;
     text-decoration: none;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a:hover {
+    border-bottom: 3px solid #eba50f;
 }
 
 .logoimg{
