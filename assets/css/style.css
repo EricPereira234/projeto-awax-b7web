@@ -44,15 +44,23 @@ header{
     display: flex;
     align-items: center;
     border-bottom: 4px solid #000;
-    transition: ease-in 0.3s;
 }
 
 .menu li a:hover {
     border-bottom: 4px solid #b28756;
+    color: #ccc;
 }
 
 .logoimg{
     width: 80px;
     height: 80px;
     background-color: #b28756;
+}
+
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../../media/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
 }
