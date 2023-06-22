@@ -75,12 +75,12 @@ header{
     background-color: rgba(0, 0, 0, 0.2);
 }
 .intro-info .img {
-   width: 300px;
-   height: 315px;
+   width: 280px;
+   height: 320px;
    margin: 0 20px;
-   padding: 1px;
    background-size: cover;
-   border: 3px solid #fff;
+   background-position: center;
+   border-bottom: 1px solid #ccc;
    border-radius: 50%;
 }
 
