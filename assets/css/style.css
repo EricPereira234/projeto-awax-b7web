@@ -85,9 +85,22 @@ header{
 }
 
 .intro-info strong {
-    width: 400px;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.intro-info span {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#eba50f;
+}
+
+.intro-info label {
+    width: 400px;
+    margin: 5px 0;
     color: #fff;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
