@@ -77,3 +77,19 @@ header{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.banner .slidearea {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner span {
+    color: #b28756;
+    letter-spacing: 7px;
+}
