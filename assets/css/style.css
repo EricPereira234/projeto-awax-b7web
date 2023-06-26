@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header{
     height: 100px;
     background-color: #000;
@@ -52,6 +56,12 @@ header{
 }
 
 .menu li a:hover {
+    color: #ccc;
+    border-bottom: 3px solid #eba50f;
+}
+
+.menu li a.active{
+    color: #ccc;
     border-bottom: 3px solid #eba50f;
 }
 
@@ -103,4 +113,25 @@ header{
     font-size: 16px;
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.portifoio {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portifoio h2 {
+    text-transform: uppercase;
+    color: #333;
+}
+
+.portifoio .container-port {
+    width: 90%;
+    height: 85%;
+    margin: auto;
 }
