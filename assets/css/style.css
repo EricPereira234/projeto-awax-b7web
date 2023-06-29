@@ -250,3 +250,36 @@ header{
 .section-projects--filters li:first-child {
     border-left: 0;
 }
+
+.section-projects--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects--photo {
+    width: 280px;
+}
+.container-area{
+    width: 260px;
+    margin: 10px;
+    height: 160px;
+    overflow-y: hidden;
+}
+.container-area .photo-info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+}
+.container-area img {
+    width: inherit;
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
