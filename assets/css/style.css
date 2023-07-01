@@ -298,3 +298,15 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.bg-team {
+    background-image: url('../../media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team-area {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
