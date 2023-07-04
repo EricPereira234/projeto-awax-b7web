@@ -310,3 +310,16 @@ header{
     padding: 50px 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+@media screen and (max-width: 700px) {
+   .menu nav {
+        position: absolute;
+        z-index: 99;
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
