@@ -55,6 +55,10 @@ header{
     border-bottom: 4px solid #b28756;
 }
 
+.menu-opener{
+   display: none;
+}
+
 .logoimg{
     width: 80px;
     height: 80px;
@@ -312,8 +316,13 @@ header{
 }
 
 
+
 @media screen and (max-width: 700px) {
-   .menu nav {
+    .menu-opener{
+        margin-right: 20px;
+    }
+
+    .menu nav {
         position: absolute;
         z-index: 99;
         width: 70vw;
@@ -336,8 +345,13 @@ header{
         border: 0;
     }
 
-    .menu  li a.active  {
+    .menu li a.active {
         border: 0;
-        color:#b28756;
+        color: #b28756;
+    }
+
+    .menu li a:hover {
+        border-bottom: 0;
+        color: #b28756;
     }
 }
